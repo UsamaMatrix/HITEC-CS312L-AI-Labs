@@ -1,9 +1,23 @@
-```markdown
 # 🎓 HITEC-CS312L AI Labs
-![Cool GIF](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExejY2NTc2a3RpdmVwcmlxbmpwanVybHJ1NnUxczd6anR1c3R3OWMzcyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/Lny6Rw04nsOOc/giphy.gif)
 
 > A hands-on, interactive Python lab repository for **CS312L: Artificial Intelligence Lab** at HITEC University  
 > Featuring Jupyter notebooks, auto-graded tasks, reference solutions, and learning support
+
+<p align="center">
+  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExejY2NTc2a3RpdmVwcmlxbmpwanVybHJ1b3Uxczd6anR1c3R3OWMzcyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/Lny6Rw04nsOOc/giphy.gif" width="400" alt="AI Coding GIF">
+</p>
+
+---
+
+## 🏷️ Badges
+
+<p align="center">
+  <img src="https://img.shields.io/badge/python-3.10%2B-blue" alt="Python 3.10+">
+  <img src="https://img.shields.io/badge/license-MIT-green" alt="MIT License">
+  <img src="https://img.shields.io/badge/docs-available-brightgreen" alt="Docs Available">
+  <img src="https://img.shields.io/github/actions/workflow/status/UsamaMatrix/HITEC-CS312L-AI-Labs/ci.yml?branch=main" alt="Build Status">
+  <img src="https://img.shields.io/github/last-commit/UsamaMatrix/HITEC-CS312L-AI-Labs" alt="Last Commit">
+</p>
 
 ---
 
@@ -57,7 +71,7 @@ Each lab is broken down into **tasks**, combining narrative notebooks, coding sk
 ## 🚀 Quick Start
 
 ```bash
-git clone https://github.com/<your-org>/HITEC-CS312L-AI-Labs.git
+git clone https://github.com/UsamaMatrix/HITEC-CS312L-AI-Labs.git
 cd HITEC-CS312L-AI-Labs
 python3 -m venv .venv
 source .venv/bin/activate
@@ -79,6 +93,10 @@ Open a lab folder (e.g. `labs/Lab-01/Task-01/notebooks/Task-01.ipynb`) to begin.
   * `tests/` contains pytest tests to validate your work
   * `README.md` explains objectives, instructions & hints
 * Use `examples/` only when you need reference after submission.
+
+<p align="center">
+  <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExem53MTg3dDkwOXhpOGF3NTJkbDJrcjN1bHB5aWswdDZ6OGdrNGVqOCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/dZX3AduGrY3uJ7qCsx/giphy.gif" width="500" alt="Learning AI GIF">
+</p>
 
 ---
 
@@ -127,18 +145,5 @@ This repo is a living project — improvements and feedback are welcome!
 
 *“Learning AI by doing — code, test, reflect, repeat.”*
 
-````
-
----
-
-### 🖼 Notes on GIFs / Images in README
-
-- I included one gif above (`
-::contentReference[oaicite:1]{index=1}
-`) — you can place a relevant GIF under the header (e.g. coding animation or AI art).  
-- Store GIF files in `assets/` and reference them in README like:
-
-![Funny GIF](https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExem53MTg3dDkwOXhpOGF3NTJkbDJrcjN1bHB5aWswdDZ6OGdrNGVqOCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/dZX3AduGrY3uJ7qCsx/giphy.gif)
-  ```md
-````
-
+⚡ Next Step: Do you want me to also write a **ready-to-use GitHub Actions `ci.yml`** so your “Build Status” badge starts working immediately?
+```
