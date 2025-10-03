@@ -4,7 +4,7 @@
 > Featuring Jupyter notebooks, auto-graded tasks, reference solutions, and learning support
 
 <p align="center">
-  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExejY2NTc2a3RpdmVwcmlxbmpwanVybHJ1b3Uxczd6anR1c3R3OWMzcyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/Lny6Rw04nsOOc/giphy.gif" width="400" alt="AI Coding GIF">
+  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExejY2NTc2a3RpdmVwcmlxbmpwanVybHJ1b3Uxczd6anR1c3R3OWMzcyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/Lny6Rw04nsOOc/giphy.gif" width="1000" alt="AI Coding GIF">
 </p>
 
 ---
@@ -95,7 +95,7 @@ Open a lab folder (e.g. `labs/Lab-01/Task-01/notebooks/Task-01.ipynb`) to begin.
 * Use `examples/` only when you need reference after submission.
 
 <p align="center">
-  <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExem53MTg3dDkwOXhpOGF3NTJkbDJrcjN1bHB5aWswdDZ6OGdrNGVqOCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/dZX3AduGrY3uJ7qCsx/giphy.gif" width="500" alt="Learning AI GIF">
+  <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExem53MTg3dDkwOXhpOGF3NTJkbDJrcjN1bHB5aWswdDZ6OGdrNGVqOCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/dZX3AduGrY3uJ7qCsx/giphy.gif" width="1000" alt="Learning AI GIF">
 </p>
 
 ---
