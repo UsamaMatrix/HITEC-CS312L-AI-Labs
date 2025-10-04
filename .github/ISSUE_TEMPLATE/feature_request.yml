@@ -1,0 +1,39 @@
+name: ✨ Feature Request
+description: Suggest a new idea, enhancement, or improvement.
+title: "[Feature] <your idea>"
+labels: [enhancement]
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for suggesting an enhancement! Please describe your idea below.
+
+  - type: input
+    id: lab_task
+    attributes:
+      label: Lab / Task Affected
+      description: If this relates to a specific lab or notebook.
+      placeholder: "Lab-05 / Task-02"
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem to Solve
+      description: What problem or limitation does this address?
+      placeholder: "Describe the motivation behind your idea..."
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: Proposed Solution
+      description: How do you propose to solve it?
+      placeholder: "Explain your proposed change or new feature..."
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives Considered
+      description: Other solutions or approaches you thought about.
+      placeholder: "Any other methods?"
