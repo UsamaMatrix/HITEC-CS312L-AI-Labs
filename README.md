@@ -146,4 +146,3 @@ This repo is a living project — improvements and feedback are welcome!
 *“Learning AI by doing — code, test, reflect, repeat.”*
 
 ⚡ Next Step: Do you want me to also write a **ready-to-use GitHub Actions `ci.yml`** so your “Build Status” badge starts working immediately?
-```
