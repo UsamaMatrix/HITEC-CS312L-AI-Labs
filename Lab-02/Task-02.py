@@ -1,0 +1,21 @@
+banner = r"""
+███████╗██╗      █████╗ ███╗   ██╗████████╗
+██╔════╝██║     ██╔══██╗████╗  ██║╚══██╔══╝
+███████╗██║     ███████║██╔██╗ ██║   ██║
+╚════██║██║     ██╔══██║██║╚██╗██║   ██║
+███████║███████╗██║  ██║██║ ╚████║   ██║
+╚══════╝╚══════╝╚═╝  ╚═╝╚═╝  ╚═══╝   ╚═╝
+"""
+watermark = "github.com/UsamaMatrix"
+borders = "="
+
+print(banner)
+print(borders.center(40, "="))
+print(watermark.center(40, " "))
+print(borders.center(40, "="))
+
+from math import prod
+
+t = (1, 2, 4, 2, 6)
+print("Sum:", sum(t))        # 15
+print("Product:", prod(t))   # 96
