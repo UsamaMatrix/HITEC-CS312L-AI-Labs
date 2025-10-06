@@ -1,12 +1,12 @@
-# ── Header ─────────────────────────────────────────────────────────────────────
 banner = r"""
-███████╗██╗      █████╗ ███╗   ██╗████████╗
-██╔════╝██║     ██╔══██╗████╗  ██║╚══██╔══╝
-███████╗██║     ███████║██╔██╗ ██║   ██║
-╚════██║██║     ██╔══██║██║╚██╗██║   ██║
-███████║███████╗██║  ██║██║ ╚████║   ██║
-╚══════╝╚══════╝╚═╝  ╚═╝╚═╝  ╚═══╝   ╚═╝
+██████╗ ██████╗ ██╗███╗   ███╗███████╗
+██╔══██╗██╔══██╗██║████╗ ████║██╔════╝
+██████╔╝██████╔╝██║██╔████╔██║█████╗
+██╔═══╝ ██╔══██╗██║██║╚██╔╝██║██╔══╝
+██║     ██║  ██║██║██║ ╚═╝ ██║███████╗
+╚═╝     ╚═╝  ╚═╝╚═╝╚═╝     ╚═╝╚══════╝
 """
+
 watermark = "github.com/UsamaMatrix"
 borders = "="
 
@@ -15,10 +15,15 @@ print(borders.center(40, "="))
 print(watermark.center(40, " "))
 print(borders.center(40, "="))
 
-# ── Code ───────────────────────────────────────────────────────────────────────
-from math import prod
-
-t = (1, 2, 4, 2, 6)
-print("Sum:", sum(t))        # 15
-print("Product:", prod(t))   # 96
-
+# Code: Prime Checker
+num = int(input("Enter a number to check if it is prime: "))
+print(borders.center(40, "="))
+if num > 1:
+    for i in range(2, int(num**0.5) + 1):
+        if num % i == 0:
+            print(num, "is not a prime number.")
+            break
+    else:
+        print(num, "is a prime number.")
+else:
+    print(num, "is not a prime number.")
